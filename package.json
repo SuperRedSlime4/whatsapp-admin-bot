@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-admin-bot",
+  "version": "1.0.0",
+  "description": "Bot per amministratori canale WhatsApp - Ruoli settimanali, eventi, richiami e avvisi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["whatsapp", "baileys", "bot", "admin"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "node-cron": "^3.0.3",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
